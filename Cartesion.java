@@ -9,7 +9,8 @@ public class Cartesion
                 public static final int x4=6;
                 public static final int y4=7;
 
-        public static void main(String args[])
+	 public static void compute()
+
         {
                 double length1, length2;
 
@@ -42,4 +43,11 @@ public class Cartesion
                 }
 
         }
+
+	  public static void main(String args[])
+        {
+                compute();
+
+        }
+
 }
