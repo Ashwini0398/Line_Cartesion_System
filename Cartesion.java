@@ -18,8 +18,13 @@ public class Cartesion {
 
 		System.out.println("the length of line1 is:"+length1);
 		System.out.println("the length of line2 is:"+length2);
+		
+		String s1 = String.valueOf(length1);
+		String s2 = String.valueOf(length2);
 
-		if( length1 == length2 )
+		boolean var =s1.equals(s2);
+
+		if( var == true )
 		{
 			System.out.println("both line length are equal");
 		}
