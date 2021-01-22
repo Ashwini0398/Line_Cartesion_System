@@ -19,18 +19,26 @@ public class Cartesion {
 		System.out.println("the length of line1 is:"+length1);
 		System.out.println("the length of line2 is:"+length2);
 
-		if( length1 == length2 )
-		{
-			System.out.println("both line length are equal");
-		}
-		else if ( length1 > length2 )
-		{
-			System.out.println("length of line 1 is greater");	
-		}
-		else
-		{
-			System.out.println(" length of line 2  is greater");
-		}
+		String str1=String.valueOf(length1);
+                String str2=String.valueOf(length2);
+
+                double var = str1.compareTo(str2);
+
+
+
+                if( var == 0 )
+                {
+                        System.out.println("both line length are equal");
+                }
+                else if ( var > 0 )
+                {
+                        System.out.println("length of line 1 is greater");
+                }
+                else
+                {
+                        System.out.println(" length of line 2  is greater");
+                }
+
 
 	}
 }
